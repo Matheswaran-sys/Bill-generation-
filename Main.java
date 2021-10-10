@@ -68,6 +68,7 @@ class Discount_Check{
             boolean coupon_status = Arrays.asList(coupon_arr).contains(coupon_code);
             if(coupon_status){
                 System.out.println("Wowww! Congrats you have got buy 1 get 1 offer!! Go grab our your food from the counter and enjoy you meal!!");
+                System.out.println("Your bill is Rs"+total_bef_dis);
             }
             else{
                 System.out.println("Sorry :/ your coupon is not valid...please enter another coupon code if you have...Else print n");
@@ -77,6 +78,7 @@ class Discount_Check{
                      coupon_status =Arrays.asList(coupon_code).contains(coupon_code);
                 if(coupon_status){
                 System.out.println("Wowww! Congrats you have got buy 1 get 1 offer!! Go grab our your food from the counter and enjoy you meal!!");
+                System.out.println("Your bill is Rs"+total_bef_dis);
                 }
                 }
                 if(coupon_code.equals("n")){
